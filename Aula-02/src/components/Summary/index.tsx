@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import incomeImg from "../../assets/entradas.svg"
-import OutcomeImg from "../../assets/saídas.svg"
+import OutcomeImg from "../../assets/saidas.svg"
 import totalImg from "../../assets/total.svg"
 
 export function Summary(){
