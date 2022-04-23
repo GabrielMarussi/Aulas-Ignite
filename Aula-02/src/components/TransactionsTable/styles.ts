@@ -22,6 +22,7 @@ export const Container = styled.div`
             color: var(--text-body);
             border-radius: 0.25rem;
 
+
             &:first-child {
                 color: var(--text-title);
                 
@@ -35,6 +36,10 @@ export const Container = styled.div`
                 color: var(--red);
                 
             }
+        }
+
+        tr{
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, .12);
         }
     }
 `
