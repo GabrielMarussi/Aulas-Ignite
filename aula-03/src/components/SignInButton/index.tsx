@@ -5,8 +5,8 @@ import styles from './styles.module.scss'
 
 export function SignInButton(){
     const isUserLoggedIn = true;
-
-    return isUserLoggedIn ? (
+    
+    const RenderButtonLogged = (
         <button 
             className={styles.signInButton}
             type="button"
@@ -15,7 +15,9 @@ export function SignInButton(){
             Gabriel Marussi
             <FiX color="#737380" className={styles.closeIcon} />
         </button>
-    ) : (
+    )
+    
+    const RenderButtonNotLogged = (
         <button 
             className={styles.signInButton}
             type="button"
@@ -23,5 +25,9 @@ export function SignInButton(){
             <FaGithub color="#eba417" />
             Sign in with Github 
         </button>
+
     )
+
+    return isUserLoggedIn ? RenderButtonLogged : RenderButtonNotLogged
+
 }
