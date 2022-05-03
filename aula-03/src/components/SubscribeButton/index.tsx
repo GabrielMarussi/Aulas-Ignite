@@ -1,7 +1,7 @@
 import styles from './style.module.scss'
 
 interface SubsCribeButtonProps{
-    priceId: string;
+    priceId: string
 }
 
 export function SubscribeButton({priceId}: SubsCribeButtonProps){
