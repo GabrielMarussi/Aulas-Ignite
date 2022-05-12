@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Img from 'next/image'
 
 import { SignInButton } from '../SignInButton'
